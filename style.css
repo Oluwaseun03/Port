@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&family=Quicksand:wght@300&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  font-weight: 400;
+  font-family: 'Blinker', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  font-weight: 600;
+  line-height: 25px;
+}
+.active{
+  background-color: #111a;
+  color: #fff;
+}
+.in-active{
+  background-color: #fff;
+  color:#575757;
+}
+.container {
+  width: 100vw;
+  background-color: #fafafa;
+}
+.nav_container{
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-between;
+}
+.nav_container .logo{
+  margin: 0 5rem;
+  /* display: flex; */
+}
+.nav-items{
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items a{
+  text-decoration: none;
+  color:#575757;
+  font-size:16px;
+}
+.nav-items a:hover{
+  color: #000;
+  transition: .5s ease-in-out;
+  text-decoration: underline;
+}
+#main{
+  display: flex;
+  padding: 1rem 0;
+}
+#main .porfolio_list{
+  width:15%;
+}
+#main .porfolio_list span{
+  display: flex;
+  flex-direction: column;
+}
+#main .porfolio_list span a{
+  padding: 1rem 0 1rem 2rem;
+  font-size: 20px;
+  text-decoration: none;
+}
+#main .porfolio_list span a:hover{
+  background-color: #ccc;
+  color: #111a;
+  transition: .5s ease-in-out;
+}
+#main .another_div{
+  width:85%;
+  padding: 1.5rem 3rem;
+  border-left: 1px solid #e6e6e6;
+}
+#main .another_div .sect_one{
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+#main .another_div .sect_one .image_div{
+  width: 40%;
+  border-right: 1px solid #e6e6e6;
+  margin-right: 1rem;
+}
+#main .another_div .sect_one .image_div img{
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px 1px #ccc;
+}
+#main .another_div .sect_one .first{
+  width: 50%;
+}
+#main .another_div .sect_one .first p{
+  text-align: justify;
+  font-size: 20px;
+}
+#main .another_div .sect_two{
+  display: flex;
+}
+#main .another_div .sect_two .second{
+  width: 50%;
+}
+#main .another_div .sect_two .second p{
+  text-align: justify;
+  font-size: 20px;
+}
+#main .another_div .sect_two .Skill{
+  width: 40%;
+  border-left: 1px solid #e6e6e6;
+  margin: 0 1rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+#main .another_div .sect_two .Skill a{
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  background-color: #ccc;
+  color:#575757;
+  margin: 0rem 1.5rem 1rem 0;
+}
+#main .another_div .sect_two .Skill a:hover{
+  background-color: #111a;
+  color:#fff;
+  transform: scale(1.05);
+  transition: .5s ease-in-out;
+}
+#main .another_div form{
+  width: 40%;
+  box-shadow: 2px 4px 4px 1px #ccc;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 2rem;
+  margin: 2rem auto;
+}
+#main .another_div form span{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#main .another_div form span button{
+  background-color: #ccc;
+  color:#575757;
+}
+#main .another_div form span button:hover{
+  background-color: #111a;
+  color:#fff;
+  transition: .5s ease-in-out;
+}
+#main .another_div form span input,
+#main .another_div form span button{
+  padding:1rem .5rem;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+#main .another_div form span input:hover,
+#main .another_div form span button:hover{
+  transform: scale(1.05);
+  transition: .5s ease-in-out;
+}
+#main .another_div form .sect_one input{
+  width:45%;
+}
+#main .another_div form .sect_two input{
+  width:74%;
+}
+#main .another_div form .sect_two button{
+  width:20%;
+}
+/* .nav_container a {
+  position: relative;
+  left: 1000px;
+  text-decoration: none;
+}
+.logo img {
+  width: 10px;
+  height: 10px;
+  padding: 0.2em;
+}
+.profile_image img {
+  width: 130px;
+  padding: 2rem;
+  filter: blur();
+
+}
+
+.another_div {
+  margin-left: 15rem;
+  margin-top: 2rem;
+}
+
+.image_div {
+  float: left;
+}
+.move {
+  clear: left;
+  padding-right: 10rem;
+}
+
+.first {
+  padding: 3rem;
+}
+
+.second {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Skill {
+  padding: 3rem 6rem 5rem 6rem;
+  line-height: 3rem;
+} */
